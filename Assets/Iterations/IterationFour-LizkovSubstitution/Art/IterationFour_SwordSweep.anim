@@ -1,0 +1,729 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IterationFour_SwordSweep
+  serializedVersion: 7
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 10, y: 0, z: 0}
+        inSlope: {x: -74.99703, y: 150.68134, z: 0}
+        outSlope: {x: -74.99703, y: 150.68134, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.42375743, z: 0.33333334}
+        outWeight: {x: 0.33914727, y: 0.45000002, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1
+        value: {x: 35, y: -225, z: 0}
+        inSlope: {x: -4.462631, y: -128.44229, z: 0}
+        outSlope: {x: -4.462631, y: -128.44229, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.6875, y: 0.21860462, z: 0.33333334}
+        outWeight: {x: 0.33430234, y: 0.15583248, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.2333333
+        value: {x: 80, y: -378.9751, z: 0}
+        inSlope: {x: 2.5889542, y: -610.55566, z: 0}
+        outSlope: {x: 2.5889542, y: -610.55566, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.41652864, y: 0.535443, z: 0.33333334}
+        outWeight: {x: 0.44453236, y: 0.26563683, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.5
+        value: {x: 70.52328, y: -500, z: 0}
+        inSlope: {x: -96.24915, y: -310.02264, z: 0}
+        outSlope: {x: -96.24915, y: -310.02264, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.23541413, y: 0.40495446, z: 0.3333333}
+        outWeight: {x: 0.7695825, y: 0.5287857, z: 0.3333333}
+      - serializedVersion: 3
+        time: 1.7333333
+        value: {x: 3.0924697, y: -540, z: 0}
+        inSlope: {x: -238.47392, y: 0, z: 0}
+        outSlope: {x: -238.47392, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.25228798, y: 0.33333334, z: 0.3333335}
+        outWeight: {x: 0.30213326, y: 0.33333334, z: 0.33333185}
+      - serializedVersion: 3
+        time: 1.75
+        value: {x: 0, y: -720, z: 0}
+        inSlope: {x: -139.08926, y: Infinity, z: 0}
+        outSlope: {x: 283.23178, y: Infinity, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.36764538, y: 0.33333334, z: 0.33333364}
+        outWeight: {x: 0.16842131, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.9166666
+        value: {x: 18, y: -720, z: 0}
+        inSlope: {x: 30.997892, y: -100.68469, z: 0}
+        outSlope: {x: 30.997892, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.4069763, y: 0.27441847, z: 0.33333334}
+        outWeight: {x: 0.35210872, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.9333333
+        value: {x: 18.463753, y: 0, z: 0}
+        inSlope: {x: 24.337713, y: Infinity, z: 0}
+        outSlope: {x: 24.337713, y: Infinity, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.31534758, y: 0.33333334, z: 0.3333333}
+        outWeight: {x: 0.30609757, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.3333333
+        value: {x: 10, y: 0, z: 0}
+        inSlope: {x: -0.9882627, y: 0, z: 0}
+        outSlope: {x: -0.9882627, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.77664, y: 0.42375743, z: 0.33333337}
+        outWeight: {x: 0.33914727, y: 0.45000002, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Melee_WeaponVisual
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: -0.38940057, z: 0}
+        outSlope: {x: 0, y: -0.38940057, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.95023686, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1
+        value: {x: 0, y: 0.15, z: 0}
+        inSlope: {x: 0, y: -0.014031381, z: 0}
+        outSlope: {x: 0, y: -0.014031381, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.21434164, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.50049603, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.1666666
+        value: {x: 0, y: -0.15, z: 0}
+        inSlope: {x: 0, y: -0.5144346, z: 0}
+        outSlope: {x: 0, y: -0.5144346, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.8018519, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.43581286, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.75
+        value: {x: 0, y: 0.1, z: 0}
+        inSlope: {x: 0, y: 0.50426316, z: 0}
+        outSlope: {x: 0, y: 0.50426316, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.18936884, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.61046517, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.9166666
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: -1.028579, z: 0}
+        outSlope: {x: 0, y: -1.028579, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.47674382, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.16777426, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2.3333333
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: -0.000006613405, z: 0}
+        outSlope: {x: 0, y: -0.000006613405, z: 0}
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: {x: 0.33333334, y: 0.5830564, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.95023686, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Melee_WeaponVisual
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5833334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Emitting
+    path: Melee_WeaponVisual/WeaponVisual_Offset/WeaponVisual/VFX_Trail_Electric/Trail
+      02
+    classID: 96
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5833334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Emitting
+    path: Melee_WeaponVisual/WeaponVisual_Offset/WeaponVisual/VFX_Trail_Electric/Trail
+      01
+    classID: 96
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5833334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Emitting
+    path: Melee_WeaponVisual/WeaponVisual_Offset/WeaponVisual/VFX_Trail_Electric/Distortion
+    classID: 96
+    script: {fileID: 0}
+    flags: 0
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 1210835236
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1210835236
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 2812404957
+      attribute: 1228858774
+      script: {fileID: 0}
+      typeID: 96
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1051243879
+      attribute: 1228858774
+      script: {fileID: 0}
+      typeID: 96
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 456353144
+      attribute: 1228858774
+      script: {fileID: 0}
+      typeID: 96
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 2.3333333
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: -74.99703
+        outSlope: -74.99703
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33914727
+      - serializedVersion: 3
+        time: 1
+        value: 35
+        inSlope: -4.462631
+        outSlope: -4.462631
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.6875
+        outWeight: 0.33430234
+      - serializedVersion: 3
+        time: 1.2333333
+        value: 80
+        inSlope: 2.5889542
+        outSlope: 2.5889542
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.41652864
+        outWeight: 0.9418603
+      - serializedVersion: 3
+        time: 1.75
+        value: 0
+        inSlope: -139.08926
+        outSlope: 283.23178
+        tangentMode: 1
+        weightedMode: 3
+        inWeight: 0.19896823
+        outWeight: 0.16842131
+      - serializedVersion: 3
+        time: 1.9166666
+        value: 18
+        inSlope: 30.997892
+        outSlope: 30.997892
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.4069763
+        outWeight: 0.34219283
+      - serializedVersion: 3
+        time: 2.3333333
+        value: 10
+        inSlope: -0.9882627
+        outSlope: -0.9882627
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.77757883
+        outWeight: 0.33914727
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Melee_WeaponVisual
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -0.38940057
+        outSlope: -0.38940057
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.95023686
+      - serializedVersion: 3
+        time: 1
+        value: 0.15
+        inSlope: -0.014031381
+        outSlope: -0.014031381
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.21434164
+        outWeight: 0.50049603
+      - serializedVersion: 3
+        time: 1.1666666
+        value: -0.15
+        inSlope: -0.5144346
+        outSlope: -0.5144346
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.8018519
+        outWeight: 0.43581286
+      - serializedVersion: 3
+        time: 1.75
+        value: 0.1
+        inSlope: 0.50426316
+        outSlope: 0.50426316
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.18936884
+        outWeight: 0.61046517
+      - serializedVersion: 3
+        time: 1.9166666
+        value: 0
+        inSlope: -1.028579
+        outSlope: -1.028579
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.47674382
+        outWeight: 0.16777426
+      - serializedVersion: 3
+        time: 2.3333333
+        value: 0
+        inSlope: -0.000006613405
+        outSlope: -0.000006613405
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.5830564
+        outWeight: 0.95023686
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Melee_WeaponVisual
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 150.68134
+        outSlope: 150.68134
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.42375743
+        outWeight: 0.45000002
+      - serializedVersion: 3
+        time: 1
+        value: -225
+        inSlope: -128.44229
+        outSlope: -128.44229
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.21860462
+        outWeight: 0.11395359
+      - serializedVersion: 3
+        time: 1.5
+        value: -500
+        inSlope: -310.02264
+        outSlope: -310.02264
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.5968993
+        outWeight: 0.5287857
+      - serializedVersion: 3
+        time: 1.7333333
+        value: -540
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+        weightedMode: 3
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.75
+        value: -720
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.9166666
+        value: -720
+        inSlope: -100.68469
+        outSlope: 0
+        tangentMode: 1
+        weightedMode: 3
+        inWeight: 0.27441847
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.9333333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.3333333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.42375743
+        outWeight: 0.45000002
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Melee_WeaponVisual
+    classID: 4
+    script: {fileID: 0}
+    flags: 24
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5833334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Emitting
+    path: Melee_WeaponVisual/WeaponVisual_Offset/WeaponVisual/VFX_Trail_Electric/Trail
+      02
+    classID: 96
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5833334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Emitting
+    path: Melee_WeaponVisual/WeaponVisual_Offset/WeaponVisual/VFX_Trail_Electric/Trail
+      01
+    classID: 96
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.5833334
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Emitting
+    path: Melee_WeaponVisual/WeaponVisual_Offset/WeaponVisual/VFX_Trail_Electric/Distortion
+    classID: 96
+    script: {fileID: 0}
+    flags: 0
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events:
+  - time: 0
+    functionName: OnAttackAnimationStart
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1
+    functionName: OnAttackAnimationHitStart
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.5
+    functionName: OnAttackAnimationHitEnd
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.3333333
+    functionName: OnAttackAnimationEnd
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
