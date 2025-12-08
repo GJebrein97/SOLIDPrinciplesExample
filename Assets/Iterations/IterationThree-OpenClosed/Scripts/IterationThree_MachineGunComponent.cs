@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationThree
+namespace SolidPrinciple.IterationThree
 {
     public class IterationThree_MachineGunComponent : IterationThree_BaseGunComponent
     {

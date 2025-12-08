@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationThree
+namespace SolidPrinciple.IterationThree
 {
     public abstract class IterationThree_BaseGunComponent : MonoBehaviour
     {

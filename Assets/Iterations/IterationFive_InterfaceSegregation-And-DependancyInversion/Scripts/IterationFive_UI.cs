@@ -1,4 +1,4 @@
-namespace SoliderPrinciple.IterationFive
+namespace SolidPrinciple.IterationFive
 {
     public class IterationFive_UI : Base_UI
     {

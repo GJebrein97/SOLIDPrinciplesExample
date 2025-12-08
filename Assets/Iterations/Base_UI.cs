@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace SoliderPrinciple
+namespace SolidPrinciple
 {
     public class Base_UI : MonoBehaviour
     {

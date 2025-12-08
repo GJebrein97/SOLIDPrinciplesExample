@@ -210,7 +210,7 @@ Animator:
   m_GameObject: {fileID: 7300647610066831051}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1927e91ced4c7674297c6c8c619653a5, type: 2}
+  m_Controller: {fileID: 9100000, guid: e7553fd4b57c24743add73d8e269b9e9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -235,7 +235,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <WeaponDamage>k__BackingField: 420
-  <AttackSpeed>k__BackingField: 2
   <BulletPrefab>k__BackingField: {fileID: 821724644721424040, guid: cce0903cb4d8f1f4d97acbb838bb214a, type: 3}
   <ShootingEffect>k__BackingField: {fileID: 4251105490508064496}
   AttackAnimator: {fileID: 2448704544871261781}

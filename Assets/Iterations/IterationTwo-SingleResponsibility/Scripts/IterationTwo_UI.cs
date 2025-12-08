@@ -1,4 +1,4 @@
-namespace SoliderPrinciple.IterationTwo
+namespace SolidPrinciple.IterationTwo
 {
     public class IterationTwo_UI : Base_UI
     {

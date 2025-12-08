@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationFive
+namespace SolidPrinciple.IterationFive
 {
     public class IterationFive_SwordWaveShooterComponet : MonoBehaviour, IWeapon, IAnimatedAttack, IShootable
     {

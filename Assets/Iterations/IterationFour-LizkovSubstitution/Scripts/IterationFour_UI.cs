@@ -1,6 +1,6 @@
-using SoliderPrinciple.IterationFour;
+using SolidPrinciple.IterationFour;
 
-namespace SoliderPrinciple.IterationFour_UI
+namespace SolidPrinciple.IterationFour_UI
 {
     public class IterationFour_UI : Base_UI
     {

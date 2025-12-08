@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationFour
+namespace SolidPrinciple.IterationFour
 {
 
     public class IterationFour_MachineGunComponent : MonoBehaviour, IterationFour_IWeapon, IterationFour_IReloadable

@@ -1,4 +1,4 @@
-namespace SoliderPrinciple.IterationFour
+namespace SolidPrinciple.IterationFour
 {
     public interface IterationFour_IReloadable
     {

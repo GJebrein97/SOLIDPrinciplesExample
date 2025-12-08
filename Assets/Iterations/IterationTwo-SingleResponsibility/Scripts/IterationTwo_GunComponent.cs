@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationTwo
+namespace SolidPrinciple.IterationTwo
 {
     public class IterationTwo_GunComponent : MonoBehaviour
     {

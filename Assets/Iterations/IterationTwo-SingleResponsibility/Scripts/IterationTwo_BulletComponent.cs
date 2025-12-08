@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationTwo
+namespace SolidPrinciple.IterationTwo
 {
     public class IterationTwo_BulletComponent : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationFive
+namespace SolidPrinciple.IterationFive
 {
     public class IterationFive_CharacterComponent : MonoBehaviour
     {

@@ -1,4 +1,4 @@
-namespace SoliderPrinciple.IterationThree
+namespace SolidPrinciple.IterationThree
 {
     public class IterationThree_UI : Base_UI
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationOne
+namespace SolidPrinciple.IterationOne
 {
     public class IterationOne_UI : Base_UI
     {

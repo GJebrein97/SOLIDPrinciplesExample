@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationFour
+namespace SolidPrinciple.IterationFour
 {
     public class IterationFour_MachineGunBulletComponent : IterationFour_BaseBulletComponent
     {

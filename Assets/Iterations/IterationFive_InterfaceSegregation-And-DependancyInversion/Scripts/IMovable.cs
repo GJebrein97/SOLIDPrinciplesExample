@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationFive
+namespace SolidPrinciple.IterationFive
 {
     public interface IMovable
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoliderPrinciple.IterationThree
+namespace SolidPrinciple.IterationThree
 {
     public class IterationThree_CharacterComponent : MonoBehaviour
     {
