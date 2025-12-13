@@ -12,9 +12,9 @@ namespace SolidPrinciple.IterationFour_UI
 
             if (characterWeapon != null)
             {
-                if (characterWeapon is IterationFour_IReloadable)
+                if (characterWeapon is IterationFour_IGun)
                 {
-                    var reloadableComponent = (IterationFour_IReloadable)characterWeapon;
+                    var reloadableComponent = (IterationFour_IGun)characterWeapon;
                     if (reloadableComponent.IsReloading)
                     {
                         _ammoAmountText.text = "RELOADING";

@@ -4,13 +4,16 @@ using UnityEngine;
 namespace SolidPrinciple.IterationFour
 {
 
-    public class IterationFour_MachineGunComponent : IterationFour_BaseWeapon, IterationFour_IReloadable
+    public class IterationFour_MachineGunComponent : IterationFour_BaseWeapon, IterationFour_IGun
     {
         [field: SerializeField] public bool IsReloading { get; protected set; }
         [field: SerializeField] public float ReloadTime { get; protected set; }
         [field: SerializeField] public int AmmoCount { get; protected set; }
         [field: SerializeField] public int RuntimeAmmoCount { get; protected set; }
-
+        [field: SerializeField] public float AttackSpeed { get; protected set; }
+        [field: SerializeField] public float RuntimeAttackSpeed { get; protected set; }
+        [field: SerializeField] public GameObject BulletPrefab { get; protected set; }
+        [field: SerializeField] public ParticleSystem ShootingEffect { get; protected set; }
 
         protected void Start()
         {
@@ -38,7 +41,7 @@ namespace SolidPrinciple.IterationFour
             RuntimeAmmoCount--;
         }
 
-        protected override void GunShootEffect()
+        public void GunShootEffect()
         {
             if (ShootingEffect)
             {
@@ -46,7 +49,7 @@ namespace SolidPrinciple.IterationFour
             }
         }
 
-        protected override void ShootBullet()
+        public void ShootBullet()
         {
             if (BulletPrefab)
             {
@@ -75,6 +78,16 @@ namespace SolidPrinciple.IterationFour
             await Task.Delay((int)(ReloadTime * 1000));
             FillAmmo();
             IsReloading = false;
+        }
+
+        void IterationFour_IGun.GunShootEffect()
+        {
+            GunShootEffect();
+        }
+
+        void IterationFour_IGun.ShootBullet()
+        {
+            ShootBullet();
         }
     }
 }

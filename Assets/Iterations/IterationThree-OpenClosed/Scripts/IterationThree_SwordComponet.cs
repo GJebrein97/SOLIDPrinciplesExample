@@ -4,20 +4,14 @@ namespace SolidPrinciple.IterationThree
 {
     public class IterationThree_SwordComponet : IterationThree_MachineGunComponent
     {
-        [field: SerializeField] public bool IsAttackAnimationRunning { get; protected set; }
-        [field: SerializeField] public Animator AttackAnimator { get; protected set; }
+        [SerializeField] protected bool IsAttackAnimationRunning;
+        [SerializeField] public Animator AttackAnimator;
 
 
         public override bool CanShoot()
         {
             return !IsAttackAnimationRunning;
         }
-
-        public override void ShootBullet()
-        {
-            GunMuzzleEffect.Play(true);
-        }
-
         public override void Shoot()
         {
             IsAttackAnimationRunning = true;

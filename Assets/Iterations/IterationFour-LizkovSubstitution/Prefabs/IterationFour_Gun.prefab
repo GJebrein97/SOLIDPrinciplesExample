@@ -220,14 +220,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WeaponDamage: 25
-  AttackSpeed: 0.3
-  RuntimeAttackSpeed: 0
-  BulletPrefab: {fileID: 821724644721424040, guid: af4ab78cf7f7f134c903e4b0c0e48104, type: 3}
-  ShootingEffect: {fileID: 6126722799504826930}
   <IsReloading>k__BackingField: 0
   <ReloadTime>k__BackingField: 3
   <AmmoCount>k__BackingField: 40
   <RuntimeAmmoCount>k__BackingField: 0
+  <AttackSpeed>k__BackingField: 0.1
+  <RuntimeAttackSpeed>k__BackingField: 0
+  <BulletPrefab>k__BackingField: {fileID: 821724644721424040, guid: af4ab78cf7f7f134c903e4b0c0e48104, type: 3}
+  <ShootingEffect>k__BackingField: {fileID: 6126722799504826930}
 --- !u!1001 &9104637201963180930
 PrefabInstance:
   m_ObjectHideFlags: 0
