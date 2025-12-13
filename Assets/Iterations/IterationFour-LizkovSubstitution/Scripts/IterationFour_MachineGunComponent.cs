@@ -4,17 +4,12 @@ using UnityEngine;
 namespace SolidPrinciple.IterationFour
 {
 
-    public class IterationFour_MachineGunComponent : MonoBehaviour, IterationFour_IWeapon, IterationFour_IReloadable
+    public class IterationFour_MachineGunComponent : IterationFour_BaseWeapon, IterationFour_IReloadable
     {
-        [field: SerializeField] public float WeaponDamage { get; protected set; }
-        [field: SerializeField] public float AttackSpeed { get; protected set; }
-        public float RuntimeAttackSpeed { get; protected set; }
-        [field: SerializeField] public GameObject BulletPrefab { get; protected set; }
-        [field: SerializeField] public ParticleSystem ShootingEffect { get; protected set; }
         [field: SerializeField] public bool IsReloading { get; protected set; }
         [field: SerializeField] public float ReloadTime { get; protected set; }
         [field: SerializeField] public int AmmoCount { get; protected set; }
-        public int RuntimeAmmoCount { get; protected set; }
+        [field: SerializeField] public int RuntimeAmmoCount { get; protected set; }
 
 
         protected void Start()
@@ -27,14 +22,14 @@ namespace SolidPrinciple.IterationFour
             RuntimeAttackSpeed += Time.deltaTime;
         }
 
-        public bool CanAttack()
+        public override bool CanAttack()
         {
             if (IsOutOfBullets()) Reload();
 
             return RuntimeAttackSpeed >= AttackSpeed && !IsReloading;
         }
 
-        public void Attack()
+        public override void Attack()
         {
             GunShootEffect();
             ShootBullet();
@@ -43,7 +38,7 @@ namespace SolidPrinciple.IterationFour
             RuntimeAmmoCount--;
         }
 
-        public void GunShootEffect()
+        protected override void GunShootEffect()
         {
             if (ShootingEffect)
             {
@@ -51,7 +46,7 @@ namespace SolidPrinciple.IterationFour
             }
         }
 
-        public virtual void ShootBullet()
+        protected override void ShootBullet()
         {
             if (BulletPrefab)
             {

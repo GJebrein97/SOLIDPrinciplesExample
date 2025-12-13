@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Iterations/BaseSceneIterator/IterationScene.unity
+    guid: 1a6578e6b9751bb408d8924d62d1b82b
+  - enabled: 1
     path: Assets/Iterations/IterationOne/IterationOne.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Iterations/IterationTwo-SingleResponsibility/IterationTwo.unity
+    guid: f3614e6f2fa1a6a46b7f8d6ae94d4487
+  - enabled: 1
+    path: Assets/Iterations/IterationThree-OpenClosed/IterationThree.unity
+    guid: bee62c604b190e84aafbba0d70ef62cb
+  - enabled: 1
+    path: Assets/Iterations/IterationFour-LizkovSubstitution/IterationFour.unity
+    guid: 379f2a98ad086254582c40791cf3fb66
+  - enabled: 1
+    path: Assets/Iterations/IterationFive_InterfaceSegregation/IterationFive.unity
+    guid: 6d84ce97ddf9d7141a2a776ea1ae04bc
+  - enabled: 1
+    path: Assets/Iterations/IterationSix_DependancyInversion/IterationSix.unity
+    guid: a24379d45d9ad9d4a92c4758127091dd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

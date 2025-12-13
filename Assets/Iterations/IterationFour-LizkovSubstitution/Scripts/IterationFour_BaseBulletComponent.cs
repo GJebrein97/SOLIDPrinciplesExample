@@ -4,8 +4,8 @@ namespace SolidPrinciple.IterationFour
 {
     public abstract class IterationFour_BaseBulletComponent : MonoBehaviour
     {
-        public Rigidbody BulletRB;
-        public bool IsShot;
+        [SerializeField] protected Rigidbody BulletRB;
+        [SerializeField] protected bool IsShot;
         public abstract void ShootBullet();
     }
 

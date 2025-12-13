@@ -5,13 +5,7 @@ namespace SolidPrinciple.IterationFour
     public class IterationFour_CharacterComponent : MonoBehaviour
     {
         public IterationFour_InputHandler InputHandler;
-        public GameObject WeaponPrefab;
-        public IterationFour_IWeapon PlayerWeapon;
-
-        private void Start()
-        {
-            UpdateWeaponReference();
-        }
+        public IterationFour_BaseWeapon PlayerWeapon;
 
         private void Update()
         {
@@ -20,12 +14,6 @@ namespace SolidPrinciple.IterationFour
                 if (PlayerWeapon.CanAttack())
                     PlayerWeapon.Attack();
             }
-        }
-
-        [ContextMenu("UpdateWeaponRef")]
-        public void UpdateWeaponReference()
-        {
-            WeaponPrefab.TryGetComponent(out PlayerWeapon);
         }
     }
 }

@@ -234,9 +234,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2fbed36cf8659e43ae31a82bb822e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <WeaponDamage>k__BackingField: 420
-  <BulletPrefab>k__BackingField: {fileID: 821724644721424040, guid: cce0903cb4d8f1f4d97acbb838bb214a, type: 3}
-  <ShootingEffect>k__BackingField: {fileID: 4251105490508064496}
+  WeaponDamage: 100
+  AttackSpeed: 0
+  RuntimeAttackSpeed: 0
+  BulletPrefab: {fileID: 821724644721424040, guid: cce0903cb4d8f1f4d97acbb838bb214a, type: 3}
+  ShootingEffect: {fileID: 4251105490508064496}
   AttackAnimator: {fileID: 2448704544871261781}
 --- !u!1 &8673350045142141733
 GameObject:

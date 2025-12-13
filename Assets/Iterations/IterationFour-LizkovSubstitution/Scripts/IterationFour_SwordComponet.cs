@@ -1,23 +1,19 @@
+using UnityEditor;
 using UnityEngine;
 
 namespace SolidPrinciple.IterationFour
 {
-    public class IterationFour_SwordComponet : MonoBehaviour, IterationFour_IWeapon
+    public class IterationFour_SwordComponet : IterationFour_BaseWeapon
     {
-        [field: SerializeField] public float WeaponDamage { get; protected set; }
-        public float AttackSpeed { get; protected set; }
-        public float RuntimeAttackSpeed { get; protected set; }
-        [field: SerializeField] public GameObject BulletPrefab { get; protected set; }
-        [field: SerializeField] public ParticleSystem ShootingEffect { get; protected set; }
-        public Animator AttackAnimator;
+        [SerializeField] protected Animator AttackAnimator;
 
-        public void Attack()
+        public override void Attack()
         {
             RuntimeAttackSpeed = 1;
             AttackAnimator.SetBool("IsAttackAnimationRunning", true);
         }
 
-        public bool CanAttack()
+        public override bool CanAttack()
         {
             return RuntimeAttackSpeed <= 0;
         }
@@ -28,12 +24,12 @@ namespace SolidPrinciple.IterationFour
             AttackAnimator.SetBool("IsAttackAnimationRunning", false);
         }
 
-        public void GunShootEffect()
+        protected override void GunShootEffect()
         {
             ShootingEffect.Play(true);
         }
 
-        public virtual void ShootBullet()
+        protected override void ShootBullet()
         {
             GunShootEffect();
             if (Instantiate(BulletPrefab, ShootingEffect.transform.position, Quaternion.Euler(transform.forward)).TryGetComponent<IterationFour_BaseBulletComponent>(out var bullet))

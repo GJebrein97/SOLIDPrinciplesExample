@@ -241,7 +241,7 @@ MonoBehaviour:
   AmmoCount: 0
   RuntimeAmmoCount: 0
   IsReloading: 0
-  BulletPrefab: {fileID: 0}
+  BulletPrefab: {fileID: 821724644721424040, guid: 0d8c582a907712a4590b51c69aef06d9, type: 3}
   GunMuzzleEffect: {fileID: 4251105490508064496}
   <IsAttackAnimationRunning>k__BackingField: 0
   <AttackAnimator>k__BackingField: {fileID: 2448704544871261781}
