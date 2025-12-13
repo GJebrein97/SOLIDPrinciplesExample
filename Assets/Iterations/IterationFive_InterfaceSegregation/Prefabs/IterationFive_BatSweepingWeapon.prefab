@@ -175,10 +175,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2053446637119531109}
+  - component: {fileID: 6214014165778824645}
   - component: {fileID: 2448704544871261781}
-  - component: {fileID: -819076865290469527}
   m_Layer: 0
-  m_Name: IterationThree_BatWeapon
+  m_Name: IterationFive_BatSweepingWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,6 +200,20 @@ Transform:
   - {fileID: 2627251058901584190}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6214014165778824645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7300647610066831051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb29d97ba2f2b64596bd29248b53454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <IsAttackAnimationRunning>k__BackingField: 0
+  <AttackAnimator>k__BackingField: {fileID: 2448704544871261781}
 --- !u!95 &2448704544871261781
 Animator:
   serializedVersion: 7
@@ -210,7 +224,7 @@ Animator:
   m_GameObject: {fileID: 7300647610066831051}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: df2271da24ad8e048a9c06b4d3906e06, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1927e91ced4c7674297c6c8c619653a5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -222,29 +236,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-819076865290469527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7300647610066831051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faa854c85a2dc584da2d85417ad0d26e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GunDamage: 100
-  ReloadTime: 0
-  FireRate: 0
-  RuntimeFirerateTimer: 0
-  AmmoCount: 0
-  RuntimeAmmoCount: 0
-  IsReloading: 0
-  BulletPrefab: {fileID: 821724644721424040, guid: 0d8c582a907712a4590b51c69aef06d9, type: 3}
-  GunMuzzleEffect: {fileID: 4251105490508064496}
-  IsAttackAnimationRunning: 0
-  AttackAnimator: {fileID: 2448704544871261781}
 --- !u!1 &8673350045142141733
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,11 +393,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bad3cf055489f0e4e9cd51bd9cdb7008, type: 3}
---- !u!198 &4251105490508064496 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 6845850144125539351, guid: bad3cf055489f0e4e9cd51bd9cdb7008, type: 3}
-  m_PrefabInstance: {fileID: 7349783903405273831}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6270079398665849351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3673924073767041248, guid: bad3cf055489f0e4e9cd51bd9cdb7008, type: 3}

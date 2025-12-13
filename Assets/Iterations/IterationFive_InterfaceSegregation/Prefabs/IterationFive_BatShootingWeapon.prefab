@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 6297387894350046229}
   - component: {fileID: 2448704544871261781}
   m_Layer: 0
-  m_Name: IterationFive_BatWeapon
+  m_Name: IterationFive_BatShootingWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd4f4146e0ba0194cb0b188bbe656965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <GunDamage>k__BackingField: 0
   <BulletPrefab>k__BackingField: {fileID: 821724644721424040, guid: a3aaaa76339b73440b084c1822d77a87, type: 3}
   <ShootingEffect>k__BackingField: {fileID: 4251105490508064496}
   <IsAttackAnimationRunning>k__BackingField: 0
@@ -227,7 +226,7 @@ Animator:
   m_GameObject: {fileID: 7300647610066831051}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1927e91ced4c7674297c6c8c619653a5, type: 2}
+  m_Controller: {fileID: 9100000, guid: ea5806f0045f82f478883f5a7f3ed2cb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

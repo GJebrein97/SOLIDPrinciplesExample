@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 
 namespace SolidPrinciple.IterationFour
@@ -9,8 +8,8 @@ namespace SolidPrinciple.IterationFour
         [SerializeField] protected bool _isWeaponAttacking;
         public override void Attack()
         {
-            AttackAnimator.SetBool("IsAttackAnimationRunning", true);
             _isWeaponAttacking = true;
+            AttackAnimator.SetBool("IsAttackAnimationRunning", _isWeaponAttacking);
         }
 
         public override bool CanAttack()
@@ -21,7 +20,7 @@ namespace SolidPrinciple.IterationFour
         public void OnAttackAnimationEnd()
         {
             _isWeaponAttacking = false;
-            AttackAnimator.SetBool("IsAttackAnimationRunning", false);
+            AttackAnimator.SetBool("IsAttackAnimationRunning", _isWeaponAttacking);
         }
 
     }
