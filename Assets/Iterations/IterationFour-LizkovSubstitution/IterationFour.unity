@@ -173,13 +173,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7300647610066831051, guid: abb6c46df6e54c64f90fdc50d878d914, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abb6c46df6e54c64f90fdc50d878d914, type: 3}
+--- !u!114 &113698739 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -973622838774931949, guid: abb6c46df6e54c64f90fdc50d878d914, type: 3}
+  m_PrefabInstance: {fileID: 113698738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2fbed36cf8659e43ae31a82bb822e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &769704204 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2272824105384124862, guid: 96f492481ecbb4946b73dbf34fd4a7d4, type: 3}
@@ -245,24 +256,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7346902767308646858, guid: dc1de047edac39649ba733a79905bbf2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc1de047edac39649ba733a79905bbf2, type: 3}
---- !u!114 &776891230 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7765214621459737875, guid: dc1de047edac39649ba733a79905bbf2, type: 3}
-  m_PrefabInstance: {fileID: 776891229}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29f888a3b80df184d821e38028d08277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1224367508
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InputHandler: {fileID: 1487379642}
-  PlayerWeapon: {fileID: 776891230}
+  PlayerWeapon: {fileID: 113698739}
 --- !u!1 &1248707950 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2060727694249585243, guid: 96f492481ecbb4946b73dbf34fd4a7d4, type: 3}
